@@ -64,7 +64,7 @@ public class MrCoxallStack {
   /**
   * The clear method.
   */
-  public void Clear() {
+  public void clear() {
     theStack.clear();
     System.out.println("Cleared stack.");
   }
