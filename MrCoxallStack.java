@@ -39,10 +39,10 @@ public class MrCoxallStack {
       System.out.println("Popping top element: "
       + place);
       theStack.remove(0);
-      return(place);
+      return place;
     } catch (ArrayIndexOutOfBoundsException errorCode) {
       System.out.println(errorCode);
-      return(0);
+      return 0;
     }
   }
 
@@ -54,10 +54,10 @@ public class MrCoxallStack {
   public int peek() {
     try {
       int place = theStack.get(0);
-      return(place);
+      return place;
     } catch (ArrayIndexOutOfBoundsException errorCode) {
       System.out.println(errorCode);
-      return(-1);
+      return -1;
     }
   }
 
