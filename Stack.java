@@ -42,6 +42,7 @@ final class Stack {
       System.out.println(errorCode);
       System.exit(0);
     }
+    newStack.reversed();
     newStack.showStack();
     newStack.pop();
     newStack.showStack();
@@ -50,6 +51,7 @@ final class Stack {
       System.out.println("Top value is: " + value);
       newStack.Clear();
       newStack.showStack();
+      int inte = newStack.peek();
     } catch (IndexOutOfBoundsException errorCode) {
       System.out.println(errorCode);
       System.exit(0);

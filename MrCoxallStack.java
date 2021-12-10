@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MrCoxallStack {
   /**
@@ -57,10 +58,17 @@ public class MrCoxallStack {
   }
 
   /**
-  * The clear function.
+  * The clear method.
   */
   public void Clear() {
     theStack.clear();
     System.out.println("Cleared stack.");
+  }
+  
+  /**
+  * The reversed method.
+  */
+  public void reversed() {
+    Collections.reverse(theStack);
   }
 }
