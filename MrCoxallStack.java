@@ -30,6 +30,8 @@ public class MrCoxallStack {
 
   /**
   * The pop method.
+  *
+  * @return value in first stack spot.
   */
   public int pop() {
     try {
@@ -46,6 +48,8 @@ public class MrCoxallStack {
 
   /**
   * the peek method.
+  *
+  * @return value in first stack spot.
   */
   public int peek() {
     try {
@@ -64,7 +68,7 @@ public class MrCoxallStack {
     theStack.clear();
     System.out.println("Cleared stack.");
   }
-  
+
   /**
   * The reversed method.
   */
